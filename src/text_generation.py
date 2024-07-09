@@ -8,6 +8,7 @@ avoid_words = set()
 def update_avoid_words(words):
     global avoid_words
     avoid_words.update(words)
+    
 
 def generate_texts(num_samples, max_attempts=50):
     global avoid_words

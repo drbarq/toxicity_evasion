@@ -1,0 +1,20 @@
+# Ignore __pycache__ directories
+__pycache__/
+
+# Ignore virtual environment
+venv/
+
+# Ignore specific data files
+data/generated_samples.json
+data/toxic_tweets.json
+
+# Ignore model files and checkpoints
+fine_tuned_gpt2/
+
+# Ignore cached tokenizer files
+cached_lm_GPT2Tokenizer_*
+
+# Ignore temporary or log files
+*.log
+*.txt
+*.png
